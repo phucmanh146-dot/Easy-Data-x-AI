@@ -506,3 +506,10 @@ python D1/d1_6_agent.py
   - `code/D1/d1_1_base.py` ~ `d1_6_agent.py`（代码示例）
   - `code/README.md`、`code/.env.example`、`code/requirements.txt`（环境口径）
 - 文中标「教程原话」的说法、数字、命令都出自上面这些文件；其余为个人理解。
+
+## 八、打卡文案（可直接复制）
+
+本次学习的是「Easy Data × AI」Task02：道篇 P1 场景识别 + 术篇 D1 API 工程化。最大的收获是建立了两个判断。第一个判断来自 P1：做 Agent 之前先问一句「数据在哪」——课程给出的三维度评估（数据可得性、任务可定义性、流程编排）里，数据可得性永远排在第一位，因为 90% 的 AI 功能失败不是模型不行，而是立项时没人问这个问题。我也认同「先 Workflow 再 Agent」的稳妥路径，第一次做 AI 项目应该把控制权握在人手里，先验证价值再逐步放量。第二个判断来自 D1：Tool Use 是模型从「只能说」变成「能做事」的分界线。对话的本质是一个消息列表，模型并没有记忆；Tool Use 的机制里，模型只负责「声明」要调用什么工具，真正执行工具、去拿数据的是我的代码——这意味着数据层完全在我手里，代码连接的是管道，数据才是水。动手上，d1_1 到 d1_6 的演进让我看清了从手动编排 Tool Use 到 create_agent 一行代码的跃迁，也记下了一个调试技巧：模型没调用工具而直接回答，八成是工具的 docstring 写得不够清楚。
+
+> 完整笔记：<https://github.com/phucmanh146-dot/Easy-Data-x-AI>
+> 内容依据 Datawhale 课程「Easy Data × AI」整理，原文见 <https://github.com/datawhalechina/easy-data-x-ai>（CC BY-NC-SA 4.0）。
