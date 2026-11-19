@@ -28,7 +28,7 @@ Easy-Data-x-AI/
 ├── README.md                              # 本文件：仓库说明与进度
 └── notes/
     ├── Task01-环境准备与课前导读.md          # 环境准备 + F0/F1/F2 学习笔记
-    ├── Task02-场景识别与API工程化.md         # P1 场景识别 + D1 API 工程化
+    ├── Task02-场景识别与API工程化.md         # P1 场景识别 + D1 API 工程化（含分节心得 / 结构速览）
     ├── Task02-思维导图.md                    # Task02 复盘思维导图（Mermaid + 纯文本）
     └── Task03-AgenticRAG与数据层.md          # P2 Agentic RAG + D2 数据层
 ```
