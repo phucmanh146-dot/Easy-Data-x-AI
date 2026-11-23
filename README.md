@@ -15,7 +15,7 @@
 | --- | --- | --- | --- |
 | Task01 | 环境准备与课前导读（F0 / F1 / F2） | ✅ 已完成 | [Task01-环境准备与课前导读](notes/Task01-环境准备与课前导读.md) |
 | Task02 | 场景识别与 API 工程化（P1 + D1） | ✅ 已完成 | [Task02-场景识别与API工程化](notes/Task02-场景识别与API工程化.md) · [思维导图](notes/Task02-思维导图.md) |
-| Task03 | Agentic RAG 与 AI 应用数据层（P2 + D2） | ✅ 已完成 | [Task03-AgenticRAG与数据层](notes/Task03-AgenticRAG与数据层.md) |
+| Task03 | Agentic RAG 与 AI 应用数据层（P2 + D2） | ✅ 已完成 | [Task03-AgenticRAG与数据层](notes/Task03-AgenticRAG与数据层.md) · [思维导图](notes/Task03-思维导图.md) |
 
 > 后续 Task 按群公告节奏补充。
 
@@ -30,7 +30,8 @@ Easy-Data-x-AI/
     ├── Task01-环境准备与课前导读.md          # 环境准备 + F0/F1/F2 学习笔记
     ├── Task02-场景识别与API工程化.md         # P1 场景识别 + D1 API 工程化（含分节心得 / 结构速览）
     ├── Task02-思维导图.md                    # Task02 复盘思维导图（Mermaid + 纯文本）
-    └── Task03-AgenticRAG与数据层.md          # P2 Agentic RAG + D2 数据层
+    ├── Task03-AgenticRAG与数据层.md          # P2 Agentic RAG + D2 数据层
+    └── Task03-思维导图.md                    # Task03 复盘思维导图（Mermaid + 纯文本）
 ```
 
 ---
